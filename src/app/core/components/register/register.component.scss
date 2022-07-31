@@ -1,0 +1,57 @@
+input,
+.buttons-container {
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background-color: purple;
+  border: none;
+  padding: 15px 32px;
+  margin: 4px 2px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+
+  &.reset-button {
+    background-color: black;
+  }
+
+  &.submit-button {
+    background-color: #4caf50;
+  }
+
+  &:disabled {
+    background-color: gray;
+    cursor: default;
+  }
+}
+
+.error-message {
+  margin-left: 4px;
+  color: red;
+}
+
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  
+  input {
+    width: 32px;
+    height: 24px;
+    margin-right: 8px;
+  }
+}

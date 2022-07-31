@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+$oswald: 'Oswald', sans-serif;
+$merriweather: 'Merriweather Sans', sans-serif;
+
+h1{
+    font-family: $oswald;
+    font-size: 60px;
+    text-align: left;
+}
+
+h2 {
+    margin: 0;
+    font-family: $oswald;
+    font-size: 40px;
+    text-align: center;
+    padding:16px;
+
+
+}
+
+label {
+    font-family: $oswald;
+    font-size: 21px;
+}
+
+p{
+    font-family: $merriweather;
+    font-size: 21px;
+}
+
+input {
+    font-family: $oswald;
+    background: rgba(24, 24, 28, 0.1);
+    border-radius: 8px;
+    border-width: 0px;
+    height: 35px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+}
+
+.button{
+  /* width: 90%;
+   height: 35px;
+   border-radius: 12px;
+   border-color: #2096cf;
+   background-color: #2096cf;
+   color: white;
+   font-family: $merriweather;
+   font-size: 20px;
+*/
+background-color: #6C63FF;
+border: none;
+width: 90%;
+   height: 35px;
+   border-radius: 12px;
+color: white;
+//padding: 12px 16px;
+//margin:16px;
+margin-top: 12px;
+padding-top: 4px;
+font-size: 16px;
+font-family: $merriweather;
+cursor: pointer;
+}
+mat-icon{
+ color:white;
+ font-family:'Material Icons';
+margin-top: 0px;
+margin-bottom: 0px;
+ vertical-align: middle;
+
+}
+
+.input{
+  padding-top: 8px;
+}
+.but{
+ align-items: center;
+}
+.icon_button{
+    width: 15px;
+    height: 15px;
+}
+
+.form{
+    margin: auto;
+    width: 50vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.account{
+    font-family: $merriweather;
+    font-size: 17px;
+}
+
+
+#email, #password,#fname, #lname{
+    width: 90%;
+
+}
+
+
+img{
+  width: 100%;
+}

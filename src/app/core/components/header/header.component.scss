@@ -1,0 +1,30 @@
+
+.header{
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content:flex-start;
+  align-items: center;
+  height: 110px;
+  margin: 0;
+  padding: 20px;
+  text-shadow: 2px 2px 4px #1f1f2e;
+  text-align: center;
+
+
+
+}
+.text{
+font-size: 40px;
+
+}
+
+
+.logo{
+  width: 110px;
+  display: flex;
+font-size:40px;
+padding-right:10px;
+
+}

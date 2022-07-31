@@ -1,0 +1,63 @@
+:host {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 30px;
+
+  tbody tr {
+    border-bottom: 1px solid white;
+
+    &:nth-of-type(even) {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  th,
+  td {
+    text-align: left;
+    padding: 20px;
+  }
+
+  th {
+    text-transform: uppercase;
+
+    &:last-of-type {
+      text-align: center;
+    }
+  }
+
+  img {
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+}
+
+button {
+  padding: 12px;
+  height: 46px;
+  border: none;
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+
+  &.toggle {
+    color: green;
+    background-color: transparent;
+    border: 2px solid currentColor;
+  }
+
+  &:not(last-of-type) {
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+}
+
+input {
+  padding: 6px;
+}
