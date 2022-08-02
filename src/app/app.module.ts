@@ -20,6 +20,7 @@ import { NotificationsComponent } from './core/components/notifications/notifica
 import { ReviewsComponent } from './core/components/reviews/reviews.component';
 import { TopicsComponent } from './core/components/topics/topics.component';
 import { MenuComponent } from './core/components/menu/menu.component';
+import { StudentmainpageComponent } from './features/student/studentmainpage/studentmainpage.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { MenuComponent } from './core/components/menu/menu.component';
     NotificationsComponent,
     ReviewsComponent,
     TopicsComponent,
-    MenuComponent
+    MenuComponent,
+    StudentmainpageComponent
   ],
 
   imports: [

@@ -22,17 +22,14 @@
 
     <div class="my">
 
-         <div class="left-side">
-            <app-menu></app-menu>
-            <app-user></app-user>
+         <div class="left-side" *ngIf="router.url !== '/login' && router.url !== '/signup' && router.url !== '/forgot-password'">
 
+          <app-menu></app-menu>
+          <app-user></app-user>
         </div>
 
-
         <div class="page-content">
-
             <router-outlet></router-outlet>
-
         </div>
 
     </div>
